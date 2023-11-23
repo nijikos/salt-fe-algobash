@@ -37,11 +37,11 @@ export default function Footer({ test }: FooterProps) {
         </div>
       </div>
 
-      <div className='w-full overflow-hidden relative z-50'>
+      <div className='w-full overflow-hidden relative z-50 md:h-96'>
         <Image
           src={`/images/vector-c.svg`}
-          width={1000}
-          height={1000}
+          width={2000}
+          height={2000}
           alt='logo'
         />
         <div className='flex flex-col gap-8 text-white z-100 absolute bottom-24 px-8'>
