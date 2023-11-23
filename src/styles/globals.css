@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply !scroll-smooth;
+}
+
+.section-title {
+  @apply text-4xl md:text-6xl font-bold text-sky-600;
+}
+
+.section-padding {
+  @apply px-10 py-16 md:px-20 md:py-24;
+}
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+}
+
+.z-100 {
+  z-index: 100;
+}
+
+.ant-select-selection-item {
+  color: #00537c;
+  font-weight: bold !important;
+}
+
+.footer-text {
+  background-image: url(/public/images/vector-c.svg);
+}
